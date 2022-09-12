@@ -373,8 +373,27 @@ body {
 
 /* ---section 2---------------------------------------------- */
 /* STYLING CLASS */
-.section-2-section{
-
+.page__section-2-section {
+}
+.section-2-section {
+}
+.page__section-2__container {
+}
+.section-2-section__body {
+    text-align: center;
+}
+.section-2-section__title {
+    font-size: 96px;
+    font-family: var(--two-font-family);
+    margin: 0px 0px 15px 0px;
+}
+.red {
+    color: #f15b40;
+}
+.section-2-section__text {
+    max-width: 1000px;
+    line-height: calc(20 / 18 * 100%);
+    margin: 0px auto 20px auto;
 }
 /* STYLING CLASS END*/
 
@@ -390,18 +409,39 @@ body {
 /* max-width: 1024px Laptop */
 @media (max-width: 1024px) {
     /* classes */
+    .section-2-section__title {
+        font-size: 76px;
+    }
 }
 /* max-width: 768px Table */
 @media (max-width: 768px) {
     /* classes */
+    .section-2-section__title {
+        font-size: 56px;
+    }
+    .section-2-section__text {
+        font-size: 16px;
+    }
 }
 /* max-width: 425px Mobile L */
 @media (max-width: 425px) {
     /* classes */
+    .section-2-section__title {
+        font-size: 46px;
+    }
+    .section-2-section__text {
+        font-size: 15px;
+    }
 }
 /* max-width: 375px Mobile M */
 @media (max-width: 375px) {
     /* classes */
+    .section-2-section__title {
+        font-size: 30px;
+    }
+    .section-2-section__text {
+        font-size: 13px;
+    }
 }
 /* max-width: 320px Mobile s */
 @media (max-width: 320px) {
