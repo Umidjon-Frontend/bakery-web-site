@@ -69,6 +69,12 @@ body {
 /* ---CONTAINER END---------------------------------------------- */
 
 /* ---DUPLICATE PARTS---------------------------------------------- */
+hr{
+    width: 1024px;
+    height: 1px;
+    background-color: #999;
+    margin: 0px auto 20px auto;
+}
 /* coding here */
 /* ---DUPLICATE PARTS END---------------------------------------------- */
 
@@ -452,8 +458,27 @@ body {
 
 /* ---section 3---------------------------------------------- */
 /* STYLING CLASS */
-.section-3-section{
-
+.page__section-3-section {
+}
+.section-3-section {
+    text-align: center;
+}
+.page__section-3__container {
+}
+.section-3-section__body {
+}
+.section-3-section__title {
+    font-size: 36px;
+    font-family: var(--two-font-family);
+    margin: 0px 0px 20px 0px;
+}
+.section-3-section__map {
+    margin: 0px 0px 20px 0px;
+}
+.section-3-section__map iframe{
+    width: 100%;
+    height: 400px;
+    max-width: 900px;
 }
 /* STYLING CLASS END*/
 
@@ -492,7 +517,7 @@ body {
 /* ---FOOTER---------------------------------------------- */
 /* STYLING CLASS */
 .footer{
-
+    height: 80px;
 }
 /* STYLING CLASS END*/
 
@@ -516,6 +541,9 @@ body {
 /* max-width: 425px Mobile L */
 @media (max-width: 425px) {
     /* classes */
+    .footer{
+        height: 150px;
+    }
 }
 /* max-width: 375px Mobile M */
 @media (max-width: 375px) {
