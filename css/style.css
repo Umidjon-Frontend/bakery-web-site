@@ -1,11 +1,11 @@
 /* ---VARIABLES---------------------------------------------- */
 :root{
     /* --name: value */
-    --bg-color: #fafafa;
-    --main-color: #252b42;
-    --main-font-family: "Montserrat", sans-serif;
+    --bg-color: #ffe2b0;
+    --main-color: #000;
+    --main-font-family: "Roboto", sans-serif;
     --main-font-weight: 500;
-    --main-font-size: 14px;
+    --main-font-size: 18px;
 }
 /* ---MAIN STYLE---------------------------------------------- */
 *,
@@ -60,7 +60,7 @@ body {
 
 /* ---CONTAINER---------------------------------------------- */
 ._container {
-    max-width: 1046px;
+    max-width: 1440px;
     padding: 0 15px;
     margin: 0 auto;
     box-sizing: content-box;
@@ -174,9 +174,9 @@ body {
 /* ---PAGE END---------------------------------------------- */
 
 
-/* ---SECTION NAME---------------------------------------------- */
+/* ---content---------------------------------------------- */
 /* STYLING CLASS */
-.section-name{
+.content-section{
 
 }
 /* STYLING CLASS END*/
@@ -211,8 +211,124 @@ body {
     /* classes */
 }
 /* MEDIA QUERY END*/
-/* ---SECTION NAME END---------------------------------------------- */
+/* ---content END---------------------------------------------- */
 
+/* ---section 1---------------------------------------------- */
+/* STYLING CLASS */
+.section-1-section{
+
+}
+/* STYLING CLASS END*/
+
+/* MEDIA QUERY */
+/* max-width: 2560px 4K */
+@media (max-width: 2560px) {
+    /* classes */
+}
+/* max-width: 1440 Laptop L */
+@media (max-width: 1440px) {
+    /* classes */
+}
+/* max-width: 1024px Laptop */
+@media (max-width: 1024px) {
+    /* classes */
+}
+/* max-width: 768px Table */
+@media (max-width: 768px) {
+    /* classes */
+}
+/* max-width: 425px Mobile L */
+@media (max-width: 425px) {
+    /* classes */
+}
+/* max-width: 375px Mobile M */
+@media (max-width: 375px) {
+    /* classes */
+}
+/* max-width: 320px Mobile s */
+@media (max-width: 320px) {
+    /* classes */
+}
+/* MEDIA QUERY END*/
+/* ---section 1 END---------------------------------------------- */
+
+/* ---section 2---------------------------------------------- */
+/* STYLING CLASS */
+.section-2-section{
+
+}
+/* STYLING CLASS END*/
+
+/* MEDIA QUERY */
+/* max-width: 2560px 4K */
+@media (max-width: 2560px) {
+    /* classes */
+}
+/* max-width: 1440 Laptop L */
+@media (max-width: 1440px) {
+    /* classes */
+}
+/* max-width: 1024px Laptop */
+@media (max-width: 1024px) {
+    /* classes */
+}
+/* max-width: 768px Table */
+@media (max-width: 768px) {
+    /* classes */
+}
+/* max-width: 425px Mobile L */
+@media (max-width: 425px) {
+    /* classes */
+}
+/* max-width: 375px Mobile M */
+@media (max-width: 375px) {
+    /* classes */
+}
+/* max-width: 320px Mobile s */
+@media (max-width: 320px) {
+    /* classes */
+}
+/* MEDIA QUERY END*/
+/* ---section 2 END---------------------------------------------- */
+
+/* ---section 3---------------------------------------------- */
+/* STYLING CLASS */
+.section-3-section{
+
+}
+/* STYLING CLASS END*/
+
+/* MEDIA QUERY */
+/* max-width: 2560px 4K */
+@media (max-width: 2560px) {
+    /* classes */
+}
+/* max-width: 1440 Laptop L */
+@media (max-width: 1440px) {
+    /* classes */
+}
+/* max-width: 1024px Laptop */
+@media (max-width: 1024px) {
+    /* classes */
+}
+/* max-width: 768px Table */
+@media (max-width: 768px) {
+    /* classes */
+}
+/* max-width: 425px Mobile L */
+@media (max-width: 425px) {
+    /* classes */
+}
+/* max-width: 375px Mobile M */
+@media (max-width: 375px) {
+    /* classes */
+}
+/* max-width: 320px Mobile s */
+@media (max-width: 320px) {
+    /* classes */
+}
+/* MEDIA QUERY END*/
+/* ---section 3 END---------------------------------------------- */
 
 /* ---FOOTER---------------------------------------------- */
 /* STYLING CLASS */
